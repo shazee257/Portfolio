@@ -33,7 +33,7 @@ const Footer = () => {
         setIsFormSubmitted(true);
       });
   };
-
+  //
   return (
     <>
       <h2 className="head-text">Take a coffee & chat with me</h2>
