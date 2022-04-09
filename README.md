@@ -1,10 +1,15 @@
-# Micael - The Ultimate Web Development Portfolio 
-![Micael](https://i.ibb.co/fHPM38q/image.png)
+# The Ultimate Web Development Portfolio 
 
-## Introduction
-This is a code repository for the corresponding video tutorial.
+## How to Run
 
-Do you know the best way to show your skills to employers or potential clients? Stand out from the crowd by presenting a well-digitalized flexible portfolio and get your dream job.
+### clone or download repository
 
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://jsmasterypro.com/newsletter
+#### create .env file for environment variables
+##### --> REACT_APP_SANITY_PROJECT_ID = <ID>
+##### --> REACT_APP_SANITY_TOKEN = <TOKEN>
+  
+#### then just install libraries and start project
+##### -> npm install
+##### -> npm start
+
+Run and enjoy !!!
