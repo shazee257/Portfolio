@@ -1,5 +1,4 @@
 node_modules
 .env
-backend_sanity_portfolio
 backend_sanity_portfolio\node_modules
 build
