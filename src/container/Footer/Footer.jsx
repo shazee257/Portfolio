@@ -6,7 +6,7 @@ import { client } from '../../client';
 import './Footer.scss';
 
 const Footer = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [formData, setFormData] = useState({ username: '', email: '', message: '' });
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -18,6 +18,7 @@ const Footer = () => {
   };
 
   const handleSubmit = () => {
+    console.log(formData);
     setLoading(true);
 
     const contact = {
